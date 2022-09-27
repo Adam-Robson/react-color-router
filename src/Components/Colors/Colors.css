@@ -1,0 +1,31 @@
+.headerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 5fr;
+  gap: 15px 15px;
+  grid-template-areas:
+    "darkLiver metallicSeaweed rajah deepChampagne beauBlue"
+    "display display display display display";
+}
+
+a {
+    text-decoration: none;
+}
+
+.darkLiver {
+    grid-area: darkLiver; }
+
+.metallicSeaweed {
+    grid-area: metallicSeaweed; }
+
+.rajah {
+    grid-area: rajah; }
+
+.deepChampagne {
+    grid-area: deepChampagne; }
+
+.beauBlue {
+    grid-area: beauBlue; }
+
+.display {
+    grid-area: display; }
