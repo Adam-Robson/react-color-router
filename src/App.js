@@ -14,8 +14,8 @@ function App() {
         <Route path="/colors">
           <Colors />
         </Route>
-        <Route exact path="/" component={Home}>
-        </Route>
+        <Route exact path="/" component={ Home } />
+        <Route path="*" component={NotFound} />
       </Switch>
     </main>
   );
