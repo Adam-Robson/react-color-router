@@ -13,19 +13,30 @@ a {
 }
 
 .darkLiver {
-    grid-area: darkLiver; }
+    grid-area: darkLiver;
+    background-color: #5E565A;
+}
 
 .metallicSeaweed {
-    grid-area: metallicSeaweed; }
+    grid-area: metallicSeaweed;
+    background-color: #087E8B;
+ }
 
 .rajah {
-    grid-area: rajah; }
+    grid-area: rajah;
+    background-color: #FFB563;
+ }
 
 .deepChampagne {
-    grid-area: deepChampagne; }
+    grid-area: deepChampagne;
+    background-color: #FFD29D;
+}
 
 .beauBlue {
-    grid-area: beauBlue; }
+    grid-area: beauBlue;
+    background-color: #CFDEE7;
+}
 
 .display {
-    grid-area: display; }
+    grid-area: display;
+}

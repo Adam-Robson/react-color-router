@@ -14,8 +14,7 @@ function App() {
         <Route path="/colors">
           <Colors />
         </Route>
-        <Route exact path="/">
-          <Home />
+        <Route exact path="/" component={Home}>
         </Route>
       </Switch>
     </main>

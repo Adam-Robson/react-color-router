@@ -1,0 +1,30 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    color:#5E565a;
+    background-color: #cfdee7;
+
+}
+
+.title {
+    display: flex;
+    font-size: 1.5em;
+    padding: 15px;
+    margin: 10px;
+    text-shadow: 5px 1px 6px rgba(150, 150, 150, 1);
+}
+
+a:link {
+    color:#5E565A;
+
+}
+
+a:visited {
+color: #087e8b;
+    }
+a:hover {
+    cursor: pointer;
+}
