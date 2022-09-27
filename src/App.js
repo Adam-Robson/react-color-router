@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Colors from './Components/Colors/Colors';
 import Color from './Components/Color/Color';
 import Home from './Components/Home/Home';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -11,9 +12,7 @@ function App() {
         <Route path="/colors/:id">
           <Color />
         </Route>
-        <Route path="/colors">
-          <Colors />
-        </Route>
+        <Route path="/colors" component={Colors} />
         <Route exact path="/" component={ Home } />
         <Route path="*" component={NotFound} />
       </Switch>

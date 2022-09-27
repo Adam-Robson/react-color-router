@@ -14,7 +14,8 @@
     font-size: 1.5em;
     padding: 15px;
     margin: 10px;
-    text-shadow: 5px 1px 6px rgba(150, 150, 150, 1);
+    border: 1px solid #333232;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a:link {
@@ -23,7 +24,7 @@ a:link {
 }
 
 a:visited {
-color: #087e8b;
+    color:#5E565A;
     }
 a:hover {
     cursor: pointer;
