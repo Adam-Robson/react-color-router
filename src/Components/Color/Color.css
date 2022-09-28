@@ -1,0 +1,14 @@
+.hex-text {
+    font-size: 4em;
+    font-family: "Inconsolata", "AndaleMono", monospace;
+    text-align: center;
+    align-items: center;
+    height: 900px;
+    padding: 65px;
+}
+
+.colorWall {
+    background-color: white;
+    height: 900px;
+
+}
