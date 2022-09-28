@@ -1,42 +1,23 @@
-.headerContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 5fr;
-  gap: 15px 15px;
-  grid-template-areas:
-    "darkLiver metallicSeaweed rajah deepChampagne beauBlue"
-    "display display display display display";
-}
-
-a {
+.backHome {
+    display: flex;
+    border: 1px solid #333232;
+    height: 40px;
     text-decoration: none;
-}
+    font-size: 2em;
+    position: fixed;
+    bottom: 15%;
+    left: 290px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 6%;
 
-.darkLiver {
-    grid-area: darkLiver;
-    background-color: #5E565A;
-}
 
-.metallicSeaweed {
-    grid-area: metallicSeaweed;
-    background-color: #087E8B;
- }
 
-.rajah {
-    grid-area: rajah;
-    background-color: #FFB563;
- }
 
-.deepChampagne {
-    grid-area: deepChampagne;
-    background-color: #FFD29D;
-}
 
-.beauBlue {
-    grid-area: beauBlue;
-    background-color: #CFDEE7;
-}
 
-.display {
-    grid-area: display;
+
+
+
+
 }
