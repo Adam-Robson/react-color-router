@@ -2,7 +2,6 @@
     background-image: none;
     background-color: white;
     height: 600px;
-
 }
 
 .colorsContainer {
@@ -14,12 +13,10 @@
     left: 15%;
     text-align: center;
     justify-items: space-around;
-
 }
 
 .champagne {
     font-weight:bold;
-    color: #0b3c49;
     padding: 20px;
     margin: 15px;
     text-decoration: none;

@@ -1,5 +1,5 @@
 export default function NotFound() {
   return (
-    <div className="notFound">Route Not Found</div>
+    <div className="notFound">Route long lost. Try another.</div>
   );
 }
