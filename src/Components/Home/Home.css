@@ -30,13 +30,13 @@ main {
 }
 
 a:link {
-    color:#0B3C49;
-
+    color:#648892;
 }
 
 a:visited {
-    color:#f1e0c5;
-    }
+    color:#919d7f;
+}
+
 a:hover {
     cursor: pointer;
 }
