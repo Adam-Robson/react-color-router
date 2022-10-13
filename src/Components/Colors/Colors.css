@@ -1,18 +1,40 @@
 .main {
-    background-image: none;
-    background-color: white;
     height: 600px;
+    background-image: url('../../img/glass.png');
+    height: 700px;
+    background-position: center;
+    background-repeat:repeat-x;
+    background-size:auto;
+}
+
+.title {
+    display: flex;
+    font-size:2em;
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid #f1e0c5;
+    font-family:  "Inconsolata", "AndaleMono", monospace;
+    color: #0B3C49;
+    text-decoration: none;
+}
+
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #edc9ff;
 }
 
 .colorsContainer {
     display: flex;
-    height: 100px;
+    height: 100%;
     font-size: 2em;
     position: fixed;
-    bottom: 70%;
-    left: 5%;
+    top: 70%;
+    font-family: "Inconsolata", "AndaleMono", monospace;
     text-align: center;
-    justify-items: space-around;
+    justify-items: space-between;
 }
 
 .champagne {
@@ -55,6 +77,14 @@
     padding: 20px;
     margin: 15px;
     text-decoration: none;
+}
+
+a:link {
+    color:#648892;
+}
+
+a:visited {
+    color:#919d7f;
 }
 
 a:hover {

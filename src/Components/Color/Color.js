@@ -7,8 +7,7 @@ export default function Color() {
     <section className="colorWall">
       <div className="colorContainer" style={ { backgroundColor: `#${id}${key}${pass}` } }>
         <p className="hex-text" >{ id }{ key }{ pass }</p>
-        <NavLink to='/colors' className="backToColors">back to colors</NavLink>
-        <NavLink to='/' className="backHome">back home</NavLink>
+        <NavLink to='/' className="backHome">back to colors</NavLink>
       </div>
     </section>
   );
