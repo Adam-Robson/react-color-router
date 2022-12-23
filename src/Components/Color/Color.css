@@ -3,12 +3,60 @@
     font-family: "Inconsolata", "AndaleMono", monospace;
     text-align: center;
     align-items: center;
-    height: 900px;
-    padding: 65px;
+    height: 200px;
+    padding: 35px;
 }
 
-.colorWall {
-    background-color: white;
+.colorContainer {
+    display: block;
     height: 900px;
+    text-align: center;
+    justify-items: space-around;
 
+}
+
+.linkContainer {
+    display: flex;
+
+}
+.champagne {
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.mauve {
+    font-weight:bold;
+    text-decoration: none;
+
+}
+
+.xanadu {
+    font-weight:bold;
+    text-decoration: none;
+
+}
+
+.midnight-green-eagle-green {
+    font-weight:bold;
+    text-decoration: none;
+
+}
+
+.gunmetal {
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.backHome {
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.backToColors {
+    font-weight:bold;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
 }
